@@ -1,9 +1,8 @@
 import { Link } from 'react-router-dom'
 import logoImg from '../../assets/logo.svg'
+import { RiArrowGoBackFill } from "react-icons/ri";
 
-import { BsGithub } from 'react-icons/bs'
-
-export function Header() {
+export function ToBack() {
   return (
     <div className='w-full flex items-center justify-center h-16 bg-slate-800 drop-shadow-sm shadow-md'>
       <header className='flex w-full max-w-7xl items-center justify-between px-4 mx-auto'>
@@ -18,8 +17,8 @@ export function Header() {
             Components
           </span>
 
-          <Link to="https://github.com/Jeanll7/tailwind-templates" className='px-6'>            
-            <BsGithub size={30} color='#fff' />            
+          <Link to="/" className='px-6'>            
+            <RiArrowGoBackFill  size={30} color='#fff' />            
           </Link>
       </header>
     </div>

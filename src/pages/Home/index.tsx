@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom"
 import menuLeft from '../../assets/menu-left.png'
 import menuFooter from '../../assets/menu-footer.png'
+import form from '../../assets/form.png'
 import { Header } from "../../components/Header"
 import { Container } from "../../components/Container"
 
@@ -31,12 +32,27 @@ export function Home() {
           </section>
 
           <section className="w-full bg-slate-200 rounded-lg">
+            <Link to="/form">
+              <img
+                className="w-full rounded-lg mb-3 max-h-60 hover:scale-105 transition-all" 
+                loading="lazy"
+                src={form}             
+                alt="imagem componente form"             
+              />            
+            </Link>
+
+            <div className="font-bold text-center mb-4">
+              <span>Formulário</span>
+            </div>      
+          </section>
+
+          <section className="w-full bg-slate-200 rounded-lg">
             <Link to="/menufooter">
               <img
                 className="w-full rounded-lg mb-3 max-h-60 hover:scale-105 transition-all" 
                 loading="lazy"
                 src={menuFooter}             
-                alt="imagem componente menu left"             
+                alt="imagem componente menu footer"             
               />            
             </Link>
 
@@ -50,7 +66,7 @@ export function Home() {
               <img
                 className="w-full rounded-lg mb-3 max-h-60 hover:scale-105 transition-all" 
                 loading="lazy"
-                src={menuFooter}             
+                src={menuLeft}             
                 alt="imagem componente menu left"             
               />            
             </Link>
@@ -61,49 +77,34 @@ export function Home() {
           </section>
 
           <section className="w-full bg-slate-200 rounded-lg">
-            <Link to="/menuleft">
+            <Link to="/form">
               <img
                 className="w-full rounded-lg mb-3 max-h-60 hover:scale-105 transition-all" 
                 loading="lazy"
-                src={menuFooter}             
-                alt="imagem componente menu left"             
+                src={form}             
+                alt="imagem componente form"             
               />            
             </Link>
 
             <div className="font-bold text-center mb-4">
-              <span>Menu left</span>
+              <span>Formulário</span>
             </div>      
           </section>
 
           <section className="w-full bg-slate-200 rounded-lg">
-            <Link to="/menuleft">
+            <Link to="/menufooter">
               <img
                 className="w-full rounded-lg mb-3 max-h-60 hover:scale-105 transition-all" 
                 loading="lazy"
                 src={menuFooter}             
-                alt="imagem componente menu left"             
+                alt="imagem componente menu footer"             
               />            
             </Link>
 
             <div className="font-bold text-center mb-4">
-              <span>Menu left</span>
+              <span>Menu Footer</span>
             </div>      
-          </section>
-
-          <section className="w-full bg-slate-200 rounded-lg">
-            <Link to="/menuleft">
-              <img
-                className="w-full rounded-lg mb-3 max-h-60 hover:scale-105 transition-all" 
-                loading="lazy"
-                src={menuFooter}             
-                alt="imagem componente menu left"             
-              />            
-            </Link>
-
-            <div className="font-bold text-center mb-4">
-              <span>Menu left</span>
-            </div>      
-          </section>         
+          </section>                  
         </main>
       </Container>       
     </div>

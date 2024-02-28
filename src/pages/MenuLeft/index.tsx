@@ -83,7 +83,7 @@ export function MenuLeft() {
           </div>
 
             <div className="pb-4 mt-11">
-              <Link to="https://github.com/Jeanll7" className="flex items-center w-full px-4 py-3 text-sm font-medium text-gray-900 transition-all duration-200 rounded-lg hover:bg-gray-100 gap-3">
+              <Link to="https://github.com/Jeanll7/tailwind-templates" className="flex items-center w-full px-4 py-3 text-sm font-medium text-gray-900 transition-all duration-200 rounded-lg hover:bg-gray-100 gap-3">
                 <BsGithub size={20} />
                   <span className="flex items-center mr-16">
                   GitHub
