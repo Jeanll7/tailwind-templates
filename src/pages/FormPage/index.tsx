@@ -75,7 +75,7 @@ export function FormPage() {
               <input
                 className="w-full border-2 rounded-md h-11 px-2 outline-none"
                 type="text"
-                placeholder="Ex: 32.000..."
+                placeholder="Ex: 2.600..."
               />
             </div>
 

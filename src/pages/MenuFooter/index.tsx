@@ -29,9 +29,21 @@ export function MenuFooter() {
             </Link>
           </nav>
 
-          <nav className="mt-10 pt-10 border-t border-zinc-800">
-
+          <nav className="mt-6 pt-6 border-t border-zinc-800 flex flex-col gap-3">
+            <Link to="#" className="text-sm text-zinc-400 hover:text-zinc-100">List 1</Link>
+            <Link to="#" className="text-sm text-zinc-400 hover:text-zinc-100">List 2</Link>
+            <Link to="#" className="text-sm text-zinc-400 hover:text-zinc-100">List 3</Link>
+            <Link to="#" className="text-sm text-zinc-400 hover:text-zinc-100">List 4</Link>
+            <Link to="#" className="text-sm text-zinc-400 hover:text-zinc-100">List 5</Link>
+            <Link to="#" className="text-sm text-zinc-400 hover:text-zinc-100">List 6</Link>
+            <Link to="#" className="text-sm text-zinc-400 hover:text-zinc-100">List 7</Link>
+            <Link to="#" className="text-sm text-zinc-400 hover:text-zinc-100">List 8</Link>
+            <Link to="#" className="text-sm text-zinc-400 hover:text-zinc-100">List 9</Link>
+            <Link to="#" className="text-sm text-zinc-400 hover:text-zinc-100">List 10</Link>
+            <Link to="#" className="text-sm text-zinc-400 hover:text-zinc-100">List 11</Link>
+            <Link to="#" className="text-sm text-zinc-400 hover:text-zinc-100">List 12</Link>
           </nav>
+
         </aside>
         <main className="flex-1 p-6">
           main
