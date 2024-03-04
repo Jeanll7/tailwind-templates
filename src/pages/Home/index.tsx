@@ -2,6 +2,8 @@ import { Link } from "react-router-dom"
 import menuLeft from '../../assets/menu-left.png'
 import menuFooter from '../../assets/menu-footer.png'
 import form from '../../assets/form.png'
+import header from '../../assets/header.png'
+import login from '../../assets/login.png'
 import { Header } from "../../components/Header"
 import { Container } from "../../components/Container"
 
@@ -61,50 +63,51 @@ export function Home() {
             </div>      
           </section>
 
-          <section className="w-full bg-slate-200 rounded-lg">
-            <Link to="/menuleft">
+          <section className="w-full bg-slate-200 rounded-lg mb-4">
+            <Link to="/navheader">
               <img
                 className="w-full rounded-lg mb-3 max-h-60 hover:scale-105 transition-all" 
                 loading="lazy"
-                src={menuLeft}             
+                src={header}             
                 alt="imagem componente menu left"             
               />            
             </Link>
 
             <div className="font-bold text-center mb-4">
-              <span>Menu left</span>
+              <span>Header</span>
             </div>      
           </section>
-
-          <section className="w-full bg-slate-200 rounded-lg">
-            <Link to="/form">
+          
+          <section className="w-full bg-slate-200 rounded-lg mb-4">
+            <Link to="/login">
               <img
                 className="w-full rounded-lg mb-3 max-h-60 hover:scale-105 transition-all" 
                 loading="lazy"
-                src={form}             
-                alt="imagem componente form"             
+                src={login}             
+                alt="imagem componente menu left"             
               />            
             </Link>
 
             <div className="font-bold text-center mb-4">
-              <span>Formulário</span>
+              <span>Login</span>
             </div>      
           </section>
 
-          <section className="w-full bg-slate-200 rounded-lg">
-            <Link to="/menufooter">
+          <section className="w-full bg-slate-200 rounded-lg mb-4">
+            <Link to="/table">
               <img
                 className="w-full rounded-lg mb-3 max-h-60 hover:scale-105 transition-all" 
                 loading="lazy"
-                src={menuFooter}             
-                alt="imagem componente menu footer"             
+                src={login}             
+                alt="imagem componente menu left"             
               />            
             </Link>
 
             <div className="font-bold text-center mb-4">
-              <span>Menu Footer</span>
+              <span>Table</span>
             </div>      
-          </section>                  
+          </section>
+
         </main>
       </Container>       
     </div>
