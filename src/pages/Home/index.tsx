@@ -4,6 +4,7 @@ import menuFooter from '../../assets/menu-footer.png'
 import form from '../../assets/form.png'
 import header from '../../assets/header.png'
 import login from '../../assets/login.png'
+import image from '../../assets/image.png'
 import { Header } from "../../components/Header"
 import { Container } from "../../components/Container"
 
@@ -94,17 +95,17 @@ export function Home() {
           </section>
 
           <section className="w-full bg-slate-200 rounded-lg mb-4">
-            <Link to="/table">
+            <Link to="/image">
               <img
                 className="w-full rounded-lg mb-3 max-h-60 hover:scale-105 transition-all" 
                 loading="lazy"
-                src={login}             
+                src={image}             
                 alt="imagem componente menu left"             
               />            
             </Link>
 
             <div className="font-bold text-center mb-4">
-              <span>Table</span>
+              <span>Image</span>
             </div>      
           </section>
 
